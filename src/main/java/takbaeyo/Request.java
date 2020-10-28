@@ -35,7 +35,6 @@ public class Request {
         RequestApplication.applicationContext.getBean(takbaeyo.external.PaymentService.class)
             .dopay(payment);
 
-
     }
 
     @PreUpdate
